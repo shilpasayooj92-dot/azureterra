@@ -5,5 +5,6 @@ resource "resource_group_name" "rg" {
     tags {
         env = non prd
         dep = ece
+        dept = it
     }
 }
